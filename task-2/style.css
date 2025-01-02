@@ -1,0 +1,89 @@
+.outer-box{
+    border: 2px solid black;
+    height: 400px;
+    width: 600px;
+    position: relative;
+}
+.inner-box{
+    box-sizing: border-box;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+.card{
+    border: 2px solid black;
+    height: 400px;
+    width: 600px;
+    position: relative;
+}
+.icon{
+    box-sizing: border-box;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+
+.tooltip-container{
+    border: 2px solid black;
+    height: 400px;
+    width: 600px;
+    padding: 30px;
+    position: relative;
+}
+.button{
+    border: 2px solid black;
+    
+}
+
+.tooltip{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 05px;
+    left: 200px;
+
+}
+.avatar-container{
+    border: 2px solid black;
+    height: 400px;
+    width: 600px;
+    padding: 30px;
+    position: relative;
+}
+.badge{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+.image-container{
+    border: 2px solid black;
+    height: 400px;
+    width: 600px;
+    position: relative;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay{
+    background-color: rgba(19,19,19,0.8);
+    align-content: center;
+    height: 100%;
+    color:#fff;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
