@@ -1,0 +1,15 @@
+.item{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    color:beige ;
+
+}
+.box{
+    display: inline-block;
+    position: absolute;
+    right: 3%;
+}
+*{
+    margin: 0%;
+}
